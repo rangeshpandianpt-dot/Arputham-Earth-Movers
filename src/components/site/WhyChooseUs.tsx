@@ -1,12 +1,14 @@
-import { ShieldCheck, Award, Clock, Wallet, Sparkles, ClipboardCheck } from "lucide-react";
+import { Users, Award, PenTool, Wallet, Clock, Wrench, ShieldCheck, ThumbsUp } from "lucide-react";
 
 const items = [
-  { icon: ShieldCheck, title: "Certified Professionals", desc: "Licensed engineers, architects, and skilled craftsmen on every project." },
-  { icon: Award, title: "Quality Materials", desc: "We source only premium, durable materials from trusted suppliers." },
-  { icon: Clock, title: "On-Time Delivery", desc: "Disciplined schedules and milestones keep your project on track." },
-  { icon: Wallet, title: "Affordable Pricing", desc: "Transparent quotes with no hidden costs — value at every stage." },
-  { icon: Sparkles, title: "Modern Designs", desc: "Contemporary aesthetics blended with timeless quality and craft." },
-  { icon: ClipboardCheck, title: "End-to-End Management", desc: "From planning to handover, one team owns the entire journey." },
+  { icon: Users, title: "Experienced Interior Professionals", desc: "Expert team for all interior needs." },
+  { icon: Award, title: "Premium Quality Materials", desc: "Top-tier wallpaper, cladding, and ceilings." },
+  { icon: PenTool, title: "Customized Design Solutions", desc: "Tailored to your specific residential or commercial needs." },
+  { icon: Wallet, title: "Affordable Pricing", desc: "Premium quality that respects your budget." },
+  { icon: Clock, title: "On-Time Project Completion", desc: "We deliver beautiful spaces exactly when promised." },
+  { icon: Wrench, title: "Skilled Installation Team", desc: "Flawless execution by our trained craftsmen." },
+  { icon: ShieldCheck, title: "Transparent Project Management", desc: "Clear communication from consultation to handover." },
+  { icon: ThumbsUp, title: "Customer Satisfaction Guaranteed", desc: "Your happiness is our ultimate priority." },
 ];
 
 export function WhyChooseUs() {
