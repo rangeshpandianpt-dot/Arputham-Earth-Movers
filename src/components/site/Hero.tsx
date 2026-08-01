@@ -9,7 +9,7 @@ export function Hero() {
       <div className="absolute inset-0 -z-10">
         <img
           src={heroImg}
-          alt="Modern luxury construction by Thamarai Constructions"
+          alt="Modern luxury interior by Limon Concrete"
           className="h-full w-full object-cover"
           width={1920}
           height={1280}
@@ -22,29 +22,28 @@ export function Hero() {
         <div className="max-w-2xl animate-fade-in">
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-white/70 px-3 py-1 text-xs font-medium uppercase tracking-[0.2em] text-primary backdrop-blur">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-            Theni · Tamil Nadu
+            Premium Interior Solutions
           </div>
 
           <h1 className="font-display text-4xl font-semibold leading-[1.05] text-charcoal md:text-5xl lg:text-6xl">
-            Transforming Ideas Into{" "}
-            <span className="text-gradient-gold">Landmark Structures</span>
+            Premium Interior &{" "}
+            <span className="text-gradient-gold">Wall Finishing Experts</span>
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-charcoal/70 md:text-lg">
-            Professional construction, renovation, interior design, and real estate
-            solutions tailored to your vision — delivered with quality, trust, and excellence.
+            Transform your residential and commercial spaces with premium wallpaper, wall cladding, false ceilings, and customized interior solutions crafted with precision and quality.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
             <Button asChild size="lg" className="rounded-full bg-primary text-primary-foreground shadow-gold hover:opacity-90">
               <Link to="/contact">
-                Get Free Consultation
+                Request Free Site Visit
                 <ArrowRight size={16} className="ml-1" />
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="rounded-full border-charcoal/20 text-charcoal hover:bg-charcoal hover:text-white">
-              <Link to="/projects">
-                <Play size={14} className="mr-1" /> View Projects
+              <Link to="/contact">
+                <Play size={14} className="mr-1" /> Get Free Quote
               </Link>
             </Button>
           </div>
