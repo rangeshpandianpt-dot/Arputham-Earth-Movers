@@ -1,10 +1,10 @@
 const steps = [
-  { n: "01", title: "Consultation", desc: "Understanding your vision, budget, and timeline." },
-  { n: "02", title: "Planning", desc: "Site evaluation, approvals, and detailed scheduling." },
-  { n: "03", title: "Design", desc: "Architectural concepts and interior design proposals." },
-  { n: "04", title: "Construction", desc: "Skilled execution with quality checks at every stage." },
-  { n: "05", title: "Quality Inspection", desc: "Thorough audits before sign-off and handover." },
-  { n: "06", title: "Handover", desc: "Walkthrough, documentation, and post-handover support." },
+  { n: "01", title: "Free Consultation", desc: "Understanding your vision, budget, and timeline." },
+  { n: "02", title: "Site Visit & Measurements", desc: "Evaluating the space and taking precise measurements." },
+  { n: "03", title: "Quotation & Material Selection", desc: "Choosing premium wallpapers, cladding, and providing transparent quotes." },
+  { n: "04", title: "Professional Installation", desc: "Skilled execution with quality checks at every stage." },
+  { n: "05", title: "Quality Inspection", desc: "Thorough audits to ensure perfection before sign-off." },
+  { n: "06", title: "Project Handover", desc: "Walkthrough and delivery of your transformed space." },
 ];
 
 export function ProcessTimeline() {
