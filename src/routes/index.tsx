@@ -17,14 +17,14 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Thamarai Constructions — Building Dreams in Theni, Tamil Nadu" },
+      { title: "Limon Concrete | Premium Interior Solutions" },
       {
         name: "description",
         content:
-          "Premium construction, renovation, interior design and real estate solutions in Theni. 100+ projects, 10+ years, 500+ happy clients.",
+          "Limon Concrete provides premium wallpaper installation, wall cladding, false ceilings, and customized interior solutions for residential and commercial spaces.",
       },
-      { property: "og:title", content: "Thamarai Constructions" },
-      { property: "og:description", content: "Building dreams with quality, trust & excellence." },
+      { property: "og:title", content: "Limon Concrete" },
+      { property: "og:description", content: "Transforming Spaces with Premium Interior Solutions" },
       { property: "og:url", content: "/" },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -59,8 +59,8 @@ function Index() {
             <SectionHeading
               align="left"
               eyebrow="About Us"
-              title="Crafted with quality, delivered with trust."
-              subtitle="We are a Theni-based construction and design firm building landmark residential, commercial, and interior projects across Tamil Nadu. Every project is delivered by an experienced team committed to craftsmanship, transparency, and on-time delivery."
+              title="About Limon Concrete"
+              subtitle="Limon Concrete is a trusted interior solutions company committed to delivering premium-quality interior finishing services for homes, offices, retail spaces, hotels, and commercial properties. Our expertise includes wallpaper installation, decorative wall cladding, false ceilings, and customized interior works. We focus on combining aesthetics, durability, and functionality while ensuring timely project completion and complete customer satisfaction."
             />
             <ul className="mt-2 grid gap-3 sm:grid-cols-2">
               {[
@@ -89,8 +89,8 @@ function Index() {
       <section className="container-px mx-auto mt-28 max-w-7xl">
         <SectionHeading
           eyebrow="What We Do"
-          title="Comprehensive construction & design services"
-          subtitle="From concept to handover, we deliver end-to-end services tailored to your project's scale and vision."
+          title="Premium Interior Solutions"
+          subtitle="From concept to handover, we deliver end-to-end interior services tailored to your project's scale and vision."
         />
         <ServiceGrid />
       </section>
@@ -101,7 +101,7 @@ function Index() {
           <SectionHeading
             eyebrow="Why Choose Us"
             title="The difference is in the details."
-            subtitle="Six promises that guide every Thamarai Constructions project."
+            subtitle="Promises that guide every Limon Concrete project."
           />
           <WhyChooseUs />
         </div>
@@ -112,7 +112,7 @@ function Index() {
         <SectionHeading
           eyebrow="Featured Work"
           title="Recent landmark projects"
-          subtitle="A glimpse into our growing portfolio of villas, residences, commercial spaces, and interior projects."
+          subtitle="A glimpse into our growing portfolio of premium living rooms, commercial spaces, and interior projects."
         />
         <ProjectsGrid limit={3} />
         <div className="mt-10 text-center">
@@ -138,7 +138,7 @@ function Index() {
       <section className="container-px mx-auto mt-28 max-w-7xl">
         <SectionHeading
           eyebrow="Testimonials"
-          title="Loved by clients across Tamil Nadu"
+          title="Loved by our clients"
           subtitle="What homeowners and businesses say about working with us."
         />
         <Testimonials />
