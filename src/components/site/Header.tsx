@@ -33,14 +33,14 @@ export function Header() {
       <div className="container-px mx-auto flex max-w-7xl items-center justify-between py-4">
         <Link to="/" className="flex items-center gap-2">
           <div className="grid h-10 w-10 place-items-center rounded-md bg-primary text-primary-foreground font-display text-lg font-bold">
-            T
+            L
           </div>
           <div className="leading-tight">
             <div className="font-display text-lg font-semibold text-charcoal">
-              Thamarai
+              Limon
             </div>
             <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-              Constructions
+              Concrete
             </div>
           </div>
         </Link>
