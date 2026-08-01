@@ -10,22 +10,27 @@ export function CtaBand() {
         <div className="relative grid items-center gap-8 md:grid-cols-[1.5fr_1fr]">
           <div>
             <h2 className="font-display text-3xl font-semibold leading-tight md:text-4xl">
-              Let's build something exceptional together.
+              Let's Transform Your Space
             </h2>
             <p className="mt-4 max-w-xl text-white/70">
-              Share your vision and our team will craft a tailored plan, timeline, and quote — typically within 24 hours.
+              Whether you're planning a home renovation, office makeover, or commercial interior project, Limon Concrete is ready to deliver elegant and premium interior solutions. Contact us today to schedule your free consultation and site visit.
             </p>
           </div>
           <div className="flex flex-wrap gap-3 md:justify-end">
             <Button asChild size="lg" className="rounded-full bg-primary text-primary-foreground hover:opacity-90">
               <Link to="/contact">
-                Get Free Quote <ArrowRight size={16} className="ml-1" />
+                Request Quote
               </Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="rounded-full border-white/30 bg-transparent text-white hover:bg-white hover:text-charcoal">
               <a href="tel:+919600600909">
-                <Phone size={14} className="mr-1" /> Call Us
+                <Phone size={14} className="mr-1" /> Call Now
               </a>
+            </Button>
+            <Button asChild size="lg" variant="outline" className="rounded-full border-white/30 bg-transparent text-white hover:bg-white hover:text-charcoal">
+              <Link to="/contact">
+                <ArrowRight size={14} className="mr-1" /> Book Free Site Visit
+              </Link>
             </Button>
           </div>
         </div>
