@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 
 const stats = [
-  { value: 100, suffix: "+", label: "Projects Completed" },
-  { value: 10, suffix: "+", label: "Years Experience" },
-  { value: 500, suffix: "+", label: "Happy Clients" },
-  { value: 24, suffix: "/7", label: "Support Available" },
+  { value: 150, suffix: "+", label: "Projects Completed" },
+  { value: 100, suffix: "+", label: "Happy Clients" },
+  { value: 8, suffix: "+", label: "Years of Experience" },
+  { value: 20, suffix: "+", label: "Professional Team Members" },
 ];
 
 function useInView<T extends HTMLElement>() {
