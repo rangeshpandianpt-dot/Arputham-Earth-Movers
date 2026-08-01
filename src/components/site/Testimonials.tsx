@@ -9,24 +9,19 @@ import {
 
 export const testimonials = [
   {
-    name: "Ramesh Kumar",
-    project: "Residential Villa, Theni",
-    text: "Thamarai Constructions delivered our dream home on time and within budget. Their attention to detail and quality of finish exceeded our expectations.",
+    name: "Rajesh S.",
+    project: "Living Room Wallpaper",
+    text: "Limon Concrete transformed our living room beautifully. The wallpaper installation was perfect, and the team was extremely professional.",
   },
   {
-    name: "Priya Subramanian",
-    project: "Interior Designing, Madurai",
-    text: "Stunning interiors with a perfect balance of elegance and comfort. The team was professional from concept to handover.",
+    name: "Karthik P.",
+    project: "Wooden Wall Cladding",
+    text: "We chose Limon Concrete for wooden wall cladding, and the quality exceeded our expectations. Excellent workmanship and timely delivery.",
   },
   {
-    name: "Arun Selvam",
-    project: "Commercial Office, Theni",
-    text: "Truly end-to-end project management. Communication was clear, work was clean, and we moved in two weeks ahead of schedule.",
-  },
-  {
-    name: "Lakshmi Iyer",
-    project: "Home Renovation, Bodi",
-    text: "They transformed our 30-year-old home into a modern dream. Workmanship and material quality are outstanding.",
+    name: "Sunil M.",
+    project: "Office Interior",
+    text: "Our office interiors now have a modern premium look thanks to Limon Concrete. Highly recommended for interior solutions.",
   },
 ];
 
