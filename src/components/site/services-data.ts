@@ -1,46 +1,36 @@
 import {
-  Home, Building2, Sofa, Hammer, LayoutGrid, Wrench, Compass, Landmark,
+  Wallpaper, DraftingCompass, Building, Sofa, Lightbulb, PenTool
 } from "lucide-react";
 
 export const services = [
   {
-    icon: Home,
-    title: "Residential Construction",
-    desc: "Custom homes built to your lifestyle — from foundation to finishing touches.",
+    icon: Wallpaper,
+    title: "Wallpaper Installation",
+    desc: "Premium wallpaper installation for homes, apartments, offices, hotels, restaurants, and commercial spaces.",
   },
   {
-    icon: Building2,
-    title: "Commercial Construction",
-    desc: "Offices, retail, and mixed-use projects delivered to commercial-grade standards.",
+    icon: PenTool,
+    title: "Wall Cladding",
+    desc: "Modern wooden, PVC, WPC, stone, charcoal, and decorative wall cladding solutions.",
+  },
+  {
+    icon: Lightbulb,
+    title: "False Ceiling",
+    desc: "Gypsum, POP, and customized false ceiling installation with modern lighting concepts.",
+  },
+  {
+    icon: DraftingCompass,
+    title: "Interior Designing",
+    desc: "Creative interior planning and execution for residential and commercial spaces.",
+  },
+  {
+    icon: Building,
+    title: "Commercial Interiors",
+    desc: "Professional office, showroom, restaurant, retail, and hospitality interior solutions.",
   },
   {
     icon: Sofa,
-    title: "Interior Designing",
-    desc: "Bespoke interiors that balance elegance, function, and your personal taste.",
-  },
-  {
-    icon: Hammer,
-    title: "Home Renovation",
-    desc: "Transform existing spaces with modern upgrades and thoughtful remodeling.",
-  },
-  {
-    icon: LayoutGrid,
-    title: "Tile Work & Flooring",
-    desc: "Premium tile, marble, and flooring installation by skilled craftsmen.",
-  },
-  {
-    icon: Wrench,
-    title: "Refurbishment Services",
-    desc: "Restore and refresh commercial and residential properties end-to-end.",
-  },
-  {
-    icon: Compass,
-    title: "Architectural Planning",
-    desc: "Concept, design, and approvals handled by experienced architects.",
-  },
-  {
-    icon: Landmark,
-    title: "Real Estate Development",
-    desc: "Land acquisition, planning, and development of landmark properties.",
+    title: "Custom Interior Works",
+    desc: "TV units, decorative partitions, feature walls, storage solutions, and customized interior finishes.",
   },
 ] as const;
