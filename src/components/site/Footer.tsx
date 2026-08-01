@@ -9,18 +9,17 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2">
               <div className="grid h-10 w-10 place-items-center rounded-md bg-primary text-primary-foreground font-display text-lg font-bold">
-                T
+                L
               </div>
               <div className="leading-tight">
-                <div className="font-display text-lg font-semibold">Thamarai</div>
+                <div className="font-display text-lg font-semibold">Limon</div>
                 <div className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">
-                  Constructions
+                  Concrete
                 </div>
               </div>
             </div>
             <p className="mt-4 text-sm text-muted-foreground">
-              Building dreams with quality, trust & excellence. Construction,
-              interiors, renovation, and real estate in Theni, Tamil Nadu.
+              Premium Interior Solutions specializing in wallpaper installation, wall cladding, false ceilings, and customized interior execution for residential and commercial spaces.
             </p>
             <div className="mt-5 flex gap-3">
               {[Facebook, Instagram, Linkedin].map((Icon, i) => (
@@ -58,11 +57,11 @@ export function Footer() {
           <div>
             <h4 className="font-display text-base font-semibold">Services</h4>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-              <li>Residential Construction</li>
-              <li>Commercial Construction</li>
+              <li>Wallpaper Installation</li>
+              <li>Wall Cladding</li>
+              <li>False Ceiling</li>
               <li>Interior Designing</li>
-              <li>Home Renovation</li>
-              <li>Real Estate Development</li>
+              <li>Commercial Interiors</li>
             </ul>
           </div>
 
@@ -83,8 +82,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={16} className="text-primary" />
-                <a href="mailto:info@thamaraiconstructions.com" className="hover:text-primary">
-                  info@thamaraiconstructions.com
+                <a href="mailto:info@Limon Concreteconstructions.com" className="hover:text-primary">
+                  info@Limon Concreteconstructions.com
                 </a>
               </li>
             </ul>
@@ -92,8 +91,8 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground md:flex-row">
-          <p>© 2026 Thamarai Constructions. All Rights Reserved.</p>
-          <p>Crafted with care in Theni, Tamil Nadu.</p>
+          <p>© 2026 Limon Concrete. All Rights Reserved.</p>
+          <p>Premium Interior Solutions.</p>
         </div>
       </div>
     </footer>
