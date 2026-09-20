@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { ArrowRight, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImg from "@/assets/hero.jpg";
+import { ScrollReveal } from "@/components/ui/scroll-reveal";
 
 export function Hero() {
   return (
@@ -19,7 +20,7 @@ export function Hero() {
       </div>
 
       <div className="container-px mx-auto max-w-7xl py-20 md:py-28 lg:py-36">
-        <div className="max-w-2xl animate-fade-in">
+        <ScrollReveal delay={0.1} className="max-w-2xl">
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-black/50 px-3 py-1 text-xs font-medium uppercase tracking-[0.2em] text-primary backdrop-blur">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
             KING OF SAND 👑
@@ -51,7 +52,7 @@ export function Hero() {
               </a>
             </Button>
           </div>
-        </div>
+        </ScrollReveal>
       </div>
     </section>
   );
