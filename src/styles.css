@@ -1,0 +1,138 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-charcoal: var(--charcoal);
+
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", "Noto Sans Tamil", ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-elegant: 0 20px 60px -20px color-mix(in oklab, black 40%, transparent);
+  --shadow-gold: 0 12px 40px -10px color-mix(in oklab, var(--gold) 45%, transparent);
+}
+
+:root {
+  --radius: 0.625rem;
+
+  /* Light brand palette — Arputham Earth Movers */
+  --background: #FAFAFA;
+  --foreground: #111111;
+  --charcoal: #1A1A1A;
+  --gold: #F97316;
+  --gold-soft: #FB923C;
+
+  --card: #FFFFFF;
+  --card-foreground: var(--foreground);
+  --popover: #FFFFFF;
+  --popover-foreground: var(--foreground);
+
+  --primary: #F97316;
+  --primary-foreground: #FFFFFF;
+
+  --secondary: #F3F4F6;
+  --secondary-foreground: var(--foreground);
+
+  --muted: #F3F4F6;
+  --muted-foreground: #6B7280;
+
+  --accent: #FFF7ED;
+  --accent-foreground: var(--foreground);
+
+  --destructive: oklch(0.6 0.22 27);
+  --destructive-foreground: oklch(1 0 0);
+
+  --border: #E5E7EB;
+  --input: #E5E7EB;
+  --ring: var(--gold);
+
+  --sidebar: #FAFAFA;
+  --sidebar-foreground: var(--foreground);
+  --sidebar-primary: var(--gold);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: #F3F4F6;
+  --sidebar-accent-foreground: var(--foreground);
+  --sidebar-border: #E5E7EB;
+  --sidebar-ring: var(--gold);
+
+  --chart-1: var(--gold);
+  --chart-2: #FB923C;
+  --chart-3: #FDBA74;
+  --chart-4: #EA580C;
+  --chart-5: #C2410C;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+}
+
+@utility container-px {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  @media (min-width: 768px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@utility hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@utility glass-nav {
+  background: color-mix(in oklab, #ffffff 85%, transparent);
+  backdrop-filter: blur(14px) saturate(140%);
+  border-bottom: 1px solid color-mix(in oklab, black 8%, transparent);
+}
+
+@utility text-gradient-gold {
+  background: linear-gradient(135deg, #F97316 0%, #FDBA74 50%, #F59E0B 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
