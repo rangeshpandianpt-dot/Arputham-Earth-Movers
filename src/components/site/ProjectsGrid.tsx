@@ -53,9 +53,7 @@ export function ProjectsGrid({ limit, showFilter = false }: { limit?: number; sh
                     <h3 className="font-display text-lg font-semibold text-charcoal">{p.name}</h3>
                     <span className="text-xs text-muted-foreground">{p.year}</span>
                   </div>
-                  <div className="mt-2 flex items-center gap-1.5 text-sm text-muted-foreground">
-                    <MapPin size={14} className="text-primary shrink-0" /> {p.location}
-                  </div>
+
                 </div>
               </div>
             </article>
