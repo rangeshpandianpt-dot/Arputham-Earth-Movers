@@ -5,13 +5,13 @@ import {
 export const services = [
   {
     icon: Mountain,
-    title: "Sand Supply",
+    title: "Sand/Gravel Supply",
     desc: "Premium river sand, M-sand, P-sand, and gravel supply for all types of construction projects across Tamil Nadu.",
   },
   {
     icon: Shovel,
     title: "Earth Excavation",
-    desc: "Professional land clearing, foundation digging, trenching, and deep excavation with modern Volvo excavators.",
+    desc: "Professional land clearing, foundation digging, trenching, and deep excavation.",
   },
   {
     icon: Construction,
@@ -21,12 +21,12 @@ export const services = [
   {
     icon: HardHat,
     title: "JCB & Excavator Rental",
-    desc: "Hire our fleet of JCB backhoe loaders, Volvo excavators, and heavy machinery with experienced operators.",
+    desc: "Hire our fleet of heavy machinery and tipper trucks with experienced operators.",
   },
   {
     icon: Truck,
     title: "Truck Transport",
-    desc: "Ashok Leyland tipper trucks for sand, gravel, earth, and construction material transport — available 24/7.",
+    desc: "6 wheel (9.5 ton) and 10 wheel (19.5 ton) tipper trucks for sand, gravel, earth, and construction material transport — available 24/7.",
   },
   {
     icon: Warehouse,

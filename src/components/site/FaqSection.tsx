@@ -20,11 +20,11 @@ const faqs = [
   },
   {
     q: "What equipment do you have?",
-    a: "Our fleet includes Volvo excavators, JCB backhoe loaders, Ashok Leyland tipper trucks, wheel loaders, and compactors. All equipment is well-maintained and operated by experienced professionals.",
+    a: "Our fleet includes 6 wheel tippers (9.5 ton capacity) and 10 wheel tippers (19.5 ton capacity) for material transport, along with other earth moving equipment. All equipment is well-maintained.",
   },
   {
     q: "How is pricing calculated?",
-    a: "Pricing depends on the type of service (sand supply, excavation, transport), quantity, distance, and site conditions. We provide transparent, itemized quotations with no hidden charges. Contact us for a free estimate.",
+    a: "Pricing depends on the type of service (sand/gravel supply, excavation, transport), quantity, distance, and site conditions. We provide transparent, itemized quotations with no hidden charges. Contact us for a free estimate.",
   },
 ];
 
