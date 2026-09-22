@@ -9,7 +9,7 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About Us — Arputham Earth Movers | அற்புதம் எர்த் மூவர்ஸ்" },
-      { name: "description", content: "Learn about Arputham Earth Movers — a Tamil Nadu-based earth moving company providing sand supply, excavation, and heavy equipment services." },
+      { name: "description", content: "Learn about Arputham Earth Movers — a Tamil Nadu-based earth moving company providing sand/gravel supply, excavation, and heavy equipment services." },
       { property: "og:title", content: "About — Arputham Earth Movers" },
       { property: "og:description", content: "Our story, mission, and values." },
       { property: "og:url", content: "/about" },
@@ -40,9 +40,8 @@ function AboutPage() {
             <p className="mt-4 text-charcoal/75 leading-relaxed">
               From a single truck to a fleet of 50+ vehicles, Arputham Earth Movers has grown 
               into one of Tamil Nadu's most trusted earth moving companies. Our work spans 
-              sand supply, earth excavation, land leveling, and heavy equipment services — 
-              each delivered with the same standard of care and commitment that earned us the 
-              title KING OF SAND 👑.
+              sand/gravel supply, earth excavation, land leveling, and heavy equipment services — 
+              the same standard of care and commitment that earned us our reputation.
             </p>
             <p className="mt-4 text-charcoal/75 leading-relaxed" style={{ fontFamily: "'Noto Sans Tamil', sans-serif" }}>
               ஊர் உறங்கும் வேலையில் நாங்கள் உறங்கவதில்லை — உங்கள் கனவு கட்டிடத்திற்கு நம்பிக்கை நாங்கள் ✨
@@ -50,11 +49,11 @@ function AboutPage() {
             <ul className="mt-6 grid gap-3 sm:grid-cols-2">
               {[
                 "50+ Fleet Vehicles",
-                "Volvo & JCB Equipment",
+                "6 & 10 Wheel Tippers",
                 "Competitive Pricing",
                 "24/7 Operations",
-                "Ashok Leyland Trucks",
-                "4000+ Happy Clients",
+                "19.5 Ton & 9.5 Ton Capacity",
+                "2000+ Happy Clients",
               ].map((t) => (
                 <li key={t} className="flex items-center gap-2 text-sm text-charcoal/80">
                   <CheckCircle2 size={16} className="text-primary" /> {t}
@@ -73,7 +72,7 @@ function AboutPage() {
           <div className="grid gap-6 md:grid-cols-3">
             {[
               { icon: Target, t: "Our Mission", d: "Deliver premium-quality sand and earth moving services with reliability, transparency, and 24/7 availability." },
-              { icon: Eye, t: "Our Vision", d: "To be Tamil Nadu's most trusted earth moving and sand supply company — the undisputed KING OF SAND." },
+              { icon: Eye, t: "Our Vision", d: "To be Tamil Nadu's most trusted earth moving and sand/gravel supply company." },
               { icon: Heart, t: "Our Values", d: "Hard work, honesty, and customer satisfaction drive every truckload we deliver and every site we work on." },
             ].map(({ icon: Icon, t, d }) => (
               <div key={t} className="rounded-2xl border border-border bg-card p-7 shadow-sm">
