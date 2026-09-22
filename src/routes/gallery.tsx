@@ -7,27 +7,29 @@ import g1 from "@/assets/gallery-1.jpg";
 import g2 from "@/assets/gallery-2.jpg";
 import g3 from "@/assets/gallery-3.jpg";
 import g4 from "@/assets/gallery-4.jpg";
-import villa from "@/assets/project-villa.jpg";
-import residential from "@/assets/project-residential.jpg";
-import commercial from "@/assets/project-commercial.jpg";
-import interior from "@/assets/project-interior.jpg";
+import g5 from "@/assets/gallery-5.jpg";
+import g6 from "@/assets/gallery-6.jpg";
+import g7 from "@/assets/gallery-7.jpg";
+import g8 from "@/assets/gallery-8.jpg";
+import g9 from "@/assets/gallery-9.jpg";
 
 const images = [
   { src: g1, alt: "Night construction operations" },
-  { src: villa, alt: "Fleet of tipper trucks" },
+  { src: g5, alt: "Fleet of tipper trucks" },
   { src: g2, alt: "Sand stockpile yard" },
-  { src: interior, alt: "JCB land leveling" },
+  { src: g6, alt: "JCB land leveling" },
   { src: g3, alt: "Sand delivery to construction site" },
-  { src: residential, alt: "Night excavation work" },
-  { src: commercial, alt: "Sand yard operations" },
-  { src: g4, alt: "Volvo excavator at work" },
+  { src: g7, alt: "Night excavation work" },
+  { src: g8, alt: "Sand yard operations" },
+  { src: g4, alt: "Heavy earth moving equipment at work" },
+  { src: g9, alt: "Arputham Earth Movers project" },
 ];
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
       { title: "Gallery — Arputham Earth Movers" },
-      { name: "description", content: "Photos of our fleet, sand supply operations, excavation projects, and construction sites." },
+      { name: "description", content: "Photos of our fleet, sand/gravel supply operations, excavation projects, and construction sites." },
       { property: "og:title", content: "Gallery — Arputham Earth Movers" },
       { property: "og:description", content: "Visual showcase of our work." },
       { property: "og:url", content: "/gallery" },
