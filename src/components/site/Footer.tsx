@@ -22,7 +22,7 @@ export function Footer() {
               அற்புதம் எர்த் மூவர்ஸ்
             </p>
             <p className="mt-3 text-sm text-muted-foreground">
-              KING OF SAND 👑 — Premium sand supply, earth excavation, land leveling, and heavy equipment services across Tamil Nadu. We work 24/7.
+              Premium sand/gravel supply, earth excavation, land leveling, and heavy equipment services across Tamil Nadu. We work 24/7.
             </p>
             <div className="mt-5 flex gap-3">
               <a
@@ -66,7 +66,7 @@ export function Footer() {
           <div>
             <h4 className="font-display text-base font-semibold">Services</h4>
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
-              <li>Sand Supply</li>
+              <li>Sand/Gravel Supply</li>
               <li>Earth Excavation</li>
               <li>Land Leveling</li>
               <li>JCB & Excavator Rental</li>
@@ -105,7 +105,7 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-border pt-6 text-xs text-muted-foreground md:flex-row">
           <p>© 2026 Arputham Earth Movers (அற்புதம் எர்த் மூவர்ஸ்). All Rights Reserved.</p>
-          <p>KING OF SAND 👑 — Sand Supply & Earth Moving Experts.</p>
+          <p>Arputham Earth Movers — Sand/Gravel Supply & Earth Moving Experts.</p>
         </div>
       </div>
     </footer>
