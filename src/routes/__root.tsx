@@ -10,6 +10,7 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
+import favicon from "@/assets/gallery-1.jpg";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { FloatingActions } from "@/components/site/FloatingActions";
@@ -77,11 +78,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Arputham Earth Movers — KING OF SAND 👑 | அற்புதம் எர்த் மூவர்ஸ்" },
+      { title: "Arputham Earth Movers | அற்புதம் எர்த் மூவர்ஸ்" },
       {
         name: "description",
         content:
-          "Arputham Earth Movers — Premium sand supply, earth excavation, land leveling, JCB & excavator rental, and heavy equipment transport services in Tamil Nadu. KING OF SAND 👑",
+          "Arputham Earth Movers — Premium sand/gravel supply, earth excavation, land leveling, JCB & excavator rental, and heavy equipment transport services in Tamil Nadu.",
       },
       { name: "author", content: "Arputham Earth Movers" },
       { property: "og:site_name", content: "Arputham Earth Movers" },
@@ -89,6 +90,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
+      { rel: "icon", href: favicon },
       { rel: "stylesheet", href: appCss },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
@@ -106,7 +108,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           name: "Arputham Earth Movers",
           alternateName: "அற்புதம் எர்த் மூவர்ஸ்",
           description:
-            "Sand supply, earth excavation, land leveling, JCB & excavator rental, and heavy equipment transport services in Tamil Nadu.",
+            "Sand/Gravel supply, earth excavation, land leveling, JCB & excavator rental, and heavy equipment transport services in Tamil Nadu.",
           telephone: "+91-98765-43210",
           url: "https://arputham-earthmovers.com",
           address: {

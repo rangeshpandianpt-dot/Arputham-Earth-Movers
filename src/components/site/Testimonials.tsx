@@ -10,13 +10,13 @@ import {
 export const testimonials = [
   {
     name: "Murugan K.",
-    project: "Sand Supply — 200 Loads",
-    text: "Arputham Earth Movers delivered 200 loads of river sand for our apartment project on time. Best quality sand in the region — truly the KING OF SAND! 👑",
+    project: "Sand/Gravel Supply — 200 Loads",
+    text: "Arputham Earth Movers delivered 200 loads of river sand for our apartment project on time. Best quality sand in the region!",
   },
   {
     name: "Senthil R.",
     project: "Foundation Excavation",
-    text: "Their Volvo excavators made our deep foundation work look effortless. Professional operators, no delays, and excellent communication throughout.",
+    text: "Their earth moving equipment made our deep foundation work look effortless. Professional operators, no delays, and excellent communication throughout.",
   },
   {
     name: "Karthikeyan P.",
