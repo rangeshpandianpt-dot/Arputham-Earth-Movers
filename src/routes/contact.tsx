@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SectionHeading } from "@/components/site/SectionHeading";
-import { ContactForm } from "@/components/site/ContactForm";
+
 import { MapPin, Phone, Mail, Clock, Instagram } from "lucide-react";
 
 export const Route = createFileRoute("/contact")({
@@ -26,15 +26,14 @@ function ContactPage() {
         subtitle="Share a few details and our team will get back within 24 hours with a free quotation."
       />
 
-      <div className="grid gap-10 lg:grid-cols-[1fr_1.2fr]">
-        <div className="space-y-6">
+      <div className="mx-auto max-w-3xl space-y-6">
           <div className="rounded-2xl border border-border bg-card p-6">
             <h3 className="font-display text-lg font-semibold text-charcoal">Reach us</h3>
             <ul className="mt-4 space-y-4 text-sm">
               <li className="flex gap-3">
                 <MapPin size={18} className="mt-0.5 shrink-0 text-primary" />
                 <span className="text-charcoal/80">
-                  Tamil Nadu, India
+                  Kanyakumari, Tamil Nadu, India
                 </span>
               </li>
               <li className="flex items-center gap-3">
@@ -57,7 +56,7 @@ function ContactPage() {
               </li>
               <li className="flex items-center gap-3">
                 <Clock size={18} className="text-primary" />
-                <span className="text-charcoal/80">24/7 — We never sleep on the job 💪</span>
+                <span className="text-charcoal/80">24/7 Service Available 💪</span>
               </li>
             </ul>
           </div>
@@ -76,9 +75,6 @@ function ContactPage() {
               <Instagram size={16} /> @arputham_earth_movers
             </a>
           </div>
-        </div>
-
-        <ContactForm />
       </div>
     </section>
   );
