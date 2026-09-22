@@ -18,14 +18,14 @@ export const Route = createFileRoute("/")(
   {
   head: () => ({
     meta: [
-      { title: "Arputham Earth Movers | KING OF SAND 👑 | அற்புதம் எர்த் மூவர்ஸ்" },
+      { title: "Arputham Earth Movers | அற்புதம் எர்த் மூவர்ஸ்" },
       {
         name: "description",
         content:
-          "Arputham Earth Movers — Premium sand supply, earth excavation, land leveling, JCB & excavator rental, and heavy equipment transport services in Tamil Nadu.",
+          "Arputham Earth Movers — Premium sand/gravel supply, earth excavation, land leveling, JCB & excavator rental, and heavy equipment transport services in Tamil Nadu.",
       },
-      { property: "og:title", content: "Arputham Earth Movers — KING OF SAND 👑" },
-      { property: "og:description", content: "Sand Supply & Earth Moving Experts in Tamil Nadu" },
+      { property: "og:title", content: "Arputham Earth Movers" },
+      { property: "og:description", content: "Sand/Gravel Supply & Earth Moving Experts in Tamil Nadu" },
       { property: "og:url", content: "/" },
     ],
     links: [{ rel: "canonical", href: "/" }],
@@ -61,15 +61,15 @@ function Index() {
               align="left"
               eyebrow="About Us"
               title="About Arputham Earth Movers"
-              subtitle="Arputham Earth Movers (அற்புதம் எர்த் மூவர்ஸ்) is a trusted earth moving and sand supply company in Tamil Nadu. Our expertise includes sand supply, earth excavation, land leveling, JCB & excavator rental, and heavy equipment transport. We operate 24/7 — because when the city sleeps, we keep working."
+              subtitle="Arputham Earth Movers (அற்புதம் எர்த் மூவர்ஸ்) is a trusted earth moving and sand/gravel supply company in Tamil Nadu. Our expertise includes sand/gravel supply, earth excavation, land leveling, JCB & excavator rental, and heavy equipment transport. We operate 24/7 — because when the city sleeps, we keep working."
             />
             <ul className="mt-2 grid gap-3 sm:grid-cols-2">
               {[
                 "24/7 Operations",
-                "Modern Volvo & JCB Fleet",
+                "6 & 10 Wheel Tippers",
                 "Premium Quality Sand",
                 "On-Time Delivery",
-                "4000+ Happy Clients",
+                "2000+ Happy Clients",
                 "Competitive Pricing",
               ].map((t) => (
                 <li key={t} className="flex items-center gap-2 text-sm text-charcoal/80">
@@ -90,7 +90,7 @@ function Index() {
       <section className="container-px mx-auto mt-28 max-w-7xl">
         <SectionHeading
           eyebrow="What We Do"
-          title="Earth Moving & Sand Supply Services"
+          title="Earth Moving & Sand/Gravel Supply Services"
           subtitle="From sand delivery to site development, we provide end-to-end earth moving services with our modern fleet of heavy equipment."
         />
         <ServiceGrid />
@@ -101,7 +101,7 @@ function Index() {
         <div className="container-px mx-auto max-w-7xl">
           <SectionHeading
             eyebrow="Why Choose Us"
-            title="The KING OF SAND difference 👑"
+            title="Our difference"
             subtitle="Promises that drive every Arputham Earth Movers project."
           />
           <WhyChooseUs />
@@ -113,7 +113,7 @@ function Index() {
         <SectionHeading
           eyebrow="Featured Work"
           title="Recent projects & fleet in action"
-          subtitle="A glimpse into our growing portfolio of sand supply, excavation, and site development projects."
+          subtitle="A glimpse into our growing portfolio of sand/gravel supply, excavation, and site development projects."
         />
         <ProjectsGrid limit={3} />
         <div className="mt-10 text-center">
@@ -139,7 +139,7 @@ function Index() {
       <section className="container-px mx-auto mt-28 max-w-7xl">
         <SectionHeading
           eyebrow="Testimonials"
-          title="Trusted by 4000+ clients"
+          title="Trusted by 2000+ clients"
           subtitle="What builders and contractors say about working with us."
         />
         <Testimonials />
