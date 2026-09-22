@@ -7,7 +7,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact — Arputham Earth Movers" },
-      { name: "description", content: "Get a free quotation. Call +91 98765 43210 or send us a project inquiry for sand/gravel supply, excavation, and transport." },
+      { name: "description", content: "Get a free quotation. Call +91 88700 51452 or send us a project inquiry for sand/gravel supply, excavation, and transport." },
       { property: "og:title", content: "Contact — Arputham Earth Movers" },
       { property: "og:description", content: "Reach our team for quotes and consultations." },
       { property: "og:url", content: "/contact" },
@@ -39,8 +39,8 @@ function ContactPage() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-primary" />
-                <a href="tel:+919876543210" className="text-charcoal/80 hover:text-primary">
-                  +91 98765 43210
+                <a href="tel:+918870051452" className="text-charcoal/80 hover:text-primary">
+                  +91 88700 51452
                 </a>
               </li>
               <li className="flex items-center gap-3">

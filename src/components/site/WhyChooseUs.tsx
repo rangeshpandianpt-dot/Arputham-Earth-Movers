@@ -1,14 +1,14 @@
 import { Clock, Award, Truck, Wallet, Mountain, Wrench, ShieldCheck, ThumbsUp } from "lucide-react";
 
 const items = [
-  { icon: Clock, title: "24/7 Operations", desc: "ஊர் உறங்கும் வேலையில் நாங்கள் உறங்கவதில்லை — We work round the clock." },
+  { icon: Clock, title: "24/7 Operations", desc: "We work round the clock." },
   { icon: Award, title: "Premium Quality", desc: "Best quality river sand, M-sand, and gravel guaranteed." },
   { icon: Truck, title: "Modern Fleet", desc: "6 wheel (9.5t) and 10 wheel (19.5t) tippers for efficient transport." },
   { icon: Wallet, title: "Competitive Pricing", desc: "Transparent, fair pricing with no hidden charges." },
   { icon: Mountain, title: "On-Time Delivery", desc: "Sand and materials delivered exactly when you need them." },
   { icon: Wrench, title: "Experienced Operators", desc: "Skilled drivers and machine operators with years of expertise." },
   { icon: ShieldCheck, title: "Safety First", desc: "Strict safety protocols for all our equipment and operations." },
-  { icon: ThumbsUp, title: "Trusted by 2000+ Clients", desc: "உங்கள் கனவு கட்டிடத்திற்கு நம்பிக்கை நாங்கள் — We are your trust." },
+  { icon: ThumbsUp, title: "Trusted by 2000+ Clients", desc: "We are your trust." },
 ];
 
 export function WhyChooseUs() {

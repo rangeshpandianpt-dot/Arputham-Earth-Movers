@@ -24,14 +24,14 @@ export function FloatingActions() {
           </button>
         )}
         <a
-          href="tel:+919876543210"
+          href="tel:+918870051452"
           aria-label="Call now"
           className="grid h-12 w-12 place-items-center rounded-full bg-primary text-primary-foreground shadow-gold transition-transform hover:scale-105"
         >
           <Phone size={18} />
         </a>
         <a
-          href="https://wa.me/919876543210"
+          href="https://wa.me/918870051452"
           target="_blank"
           rel="noreferrer"
           aria-label="WhatsApp chat"

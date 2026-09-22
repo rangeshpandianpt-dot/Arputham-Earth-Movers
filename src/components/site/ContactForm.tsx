@@ -69,7 +69,7 @@ export function ContactForm() {
         </div>
         <div className="space-y-2">
           <Label htmlFor="phone">Phone</Label>
-          <Input id="phone" name="phone" placeholder="+91 98765 43210" required />
+          <Input id="phone" name="phone" placeholder="+91 88700 51452" required />
         </div>
       </div>
       <div className="space-y-2">

@@ -109,7 +109,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           alternateName: "அற்புதம் எர்த் மூவர்ஸ்",
           description:
             "Sand/Gravel supply, earth excavation, land leveling, JCB & excavator rental, and heavy equipment transport services in Tamil Nadu.",
-          telephone: "+91-98765-43210",
+          telephone: "+91-88700-51452",
           url: "https://arputham-earthmovers.com",
           address: {
             "@type": "PostalAddress",

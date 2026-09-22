@@ -43,9 +43,7 @@ function AboutPage() {
               sand/gravel supply, earth excavation, land leveling, and heavy equipment services — 
               the same standard of care and commitment that earned us our reputation.
             </p>
-            <p className="mt-4 text-charcoal/75 leading-relaxed" style={{ fontFamily: "'Noto Sans Tamil', sans-serif" }}>
-              ஊர் உறங்கும் வேலையில் நாங்கள் உறங்கவதில்லை — உங்கள் கனவு கட்டிடத்திற்கு நம்பிக்கை நாங்கள் ✨
-            </p>
+
             <ul className="mt-6 grid gap-3 sm:grid-cols-2">
               {[
                 "50+ Fleet Vehicles",

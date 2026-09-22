@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     q: "Do you operate 24/7?",
-    a: "Yes! As our tagline says — ஊர் உறங்கும் வேலையில் நாங்கள் உறங்கவதில்லை. We operate round the clock including nights, weekends, and holidays to meet your project deadlines.",
+    a: "Yes! We operate round the clock including nights, weekends, and holidays to meet your project deadlines.",
   },
   {
     q: "Which areas do you serve?",
