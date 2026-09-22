@@ -22,8 +22,8 @@ const schema = z.object({
 });
 
 const SERVICES = [
-  "Sand Supply (River Sand)",
-  "Sand Supply (M-Sand / P-Sand)",
+  "Sand/Gravel Supply (River Sand)",
+  "Sand/Gravel Supply (M-Sand / P-Sand)",
   "Earth Excavation",
   "Land Leveling & Grading",
   "JCB / Excavator Rental",

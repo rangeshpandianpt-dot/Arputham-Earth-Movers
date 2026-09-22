@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import logoImg from "@/assets/gallery-1.jpg";
 
 const links = [
   { to: "/", label: "Home" },
@@ -32,9 +33,7 @@ export function Header() {
     >
       <div className="container-px mx-auto flex max-w-7xl items-center justify-between py-4">
         <Link to="/" className="flex items-center gap-2">
-          <div className="grid h-10 w-10 place-items-center rounded-md bg-primary text-primary-foreground font-display text-lg font-bold">
-            A
-          </div>
+          <img src={logoImg} alt="Arputham Earth Movers Logo" className="h-10 w-10 rounded-md object-cover" />
           <div className="leading-tight">
             <div className="font-display text-lg font-semibold text-charcoal">
               Arputham
