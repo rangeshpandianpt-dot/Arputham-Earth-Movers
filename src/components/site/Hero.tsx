@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { ArrowRight, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImg from "@/assets/hero.jpg";
+import heroImg from "@/assets/project-fleet.jpg";
 import { ScrollReveal } from "@/components/ui/scroll-reveal";
 
 export function Hero() {
@@ -23,7 +23,7 @@ export function Hero() {
         <ScrollReveal delay={0.1} className="max-w-2xl">
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-black/50 px-3 py-1 text-xs font-medium uppercase tracking-[0.2em] text-primary backdrop-blur">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-            KING OF SAND 👑
+            PREMIUM SAND & EXCAVATION
           </div>
 
           <h1 className="font-display text-4xl font-semibold leading-[1.05] text-white md:text-5xl lg:text-6xl">
@@ -36,7 +36,7 @@ export function Hero() {
           </p>
 
           <p className="mt-4 max-w-xl text-base leading-relaxed text-white/70 md:text-lg">
-            We never sleep while on the job. Premium sand supply, earth excavation, land leveling, and heavy equipment services across Tamil Nadu.
+            We never sleep while on the job. Premium sand/gravel supply, earth excavation, land leveling, and heavy equipment services across Tamil Nadu.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
