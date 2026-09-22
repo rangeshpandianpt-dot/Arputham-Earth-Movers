@@ -7,7 +7,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact — Arputham Earth Movers" },
-      { name: "description", content: "Get a free quotation. Call +91 98765 43210 or send us a project inquiry for sand supply, excavation, and transport." },
+      { name: "description", content: "Get a free quotation. Call +91 98765 43210 or send us a project inquiry for sand/gravel supply, excavation, and transport." },
       { property: "og:title", content: "Contact — Arputham Earth Movers" },
       { property: "og:description", content: "Reach our team for quotes and consultations." },
       { property: "og:url", content: "/contact" },

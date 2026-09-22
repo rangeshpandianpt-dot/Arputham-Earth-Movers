@@ -17,7 +17,7 @@ export function CtaBand() {
               உங்கள் கட்டிட திட்டத்தை தொடங்குங்கள்
             </p>
             <p className="mt-4 max-w-xl text-white/80">
-              Whether you need sand supply, earth excavation, land leveling, or heavy equipment — Arputham Earth Movers is ready 24/7. Contact us today for a free quotation.
+              Whether you need sand/gravel supply, earth excavation, land leveling, or heavy equipment — Arputham Earth Movers is ready 24/7. Contact us today for a free quotation.
             </p>
           </div>
           <div className="flex flex-wrap gap-3 md:justify-end">

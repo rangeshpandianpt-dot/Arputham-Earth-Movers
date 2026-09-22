@@ -24,7 +24,7 @@ function ProjectsPage() {
         <SectionHeading
           eyebrow="Fleet & Projects"
           title="Our fleet in action, delivering results"
-          subtitle="A selection of our recent sand supply, excavation, transport, and site development projects across Tamil Nadu."
+          subtitle="A selection of our recent sand/gravel supply, excavation, transport, and site development projects across Tamil Nadu."
         />
         <ProjectsGrid showFilter />
       </section>

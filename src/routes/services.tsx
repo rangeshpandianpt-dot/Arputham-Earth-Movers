@@ -8,9 +8,9 @@ export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
       { title: "Services — Arputham Earth Movers" },
-      { name: "description", content: "Sand supply, earth excavation, land leveling, JCB & excavator rental, truck transport, and site development services." },
+      { name: "description", content: "Sand/Gravel supply, earth excavation, land leveling, JCB & excavator rental, truck transport, and site development services." },
       { property: "og:title", content: "Services — Arputham Earth Movers" },
-      { property: "og:description", content: "Comprehensive earth moving & sand supply services." },
+      { property: "og:description", content: "Comprehensive earth moving & sand/gravel supply services." },
       { property: "og:url", content: "/services" },
     ],
     links: [{ rel: "canonical", href: "/services" }],
