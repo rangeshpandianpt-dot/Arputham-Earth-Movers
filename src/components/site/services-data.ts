@@ -6,7 +6,7 @@ export const services = [
   {
     icon: Mountain,
     title: "Sand/Gravel Supply",
-    desc: "Premium river sand, M-sand, P-sand, and gravel supply for all types of construction projects across Tamil Nadu.",
+    desc: "Gravel, Msand, Rock, red sand, everything necessary for building your dream house.",
   },
   {
     icon: Shovel,
