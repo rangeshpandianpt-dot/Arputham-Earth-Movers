@@ -33,19 +33,27 @@ function ContactPage() {
               <li className="flex gap-3">
                 <MapPin size={18} className="mt-0.5 shrink-0 text-primary" />
                 <span className="text-charcoal/80">
-                  Kanyakumari, Tamil Nadu, India
+                  Kavalkinaru, Tirunelveli District, Tamil Nadu – 627105, India
                 </span>
               </li>
-              <li className="flex items-center gap-3">
-                <Phone size={18} className="text-primary" />
-                <a href="tel:+918870051452" className="text-charcoal/80 hover:text-primary">
-                  +91 88700 51452
-                </a>
+              <li className="flex gap-3">
+                <Phone size={18} className="mt-0.5 shrink-0 text-primary" />
+                <div className="flex flex-col gap-1">
+                  <a href="tel:+918870051452" className="text-charcoal/80 hover:text-primary">
+                    +91 88700 51452
+                  </a>
+                  <a href="tel:+919443163093" className="text-charcoal/80 hover:text-primary">
+                    +91 94431 63093
+                  </a>
+                  <a href="tel:+919442583093" className="text-charcoal/80 hover:text-primary">
+                    +91 94425 83093
+                  </a>
+                </div>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-primary" />
-                <a href="mailto:arputham.earthmovers@gmail.com" className="text-charcoal/80 hover:text-primary">
-                  arputham.earthmovers@gmail.com
+                <a href="mailto:arputhamearthmovers713@gmail.com" className="text-charcoal/80 hover:text-primary">
+                  arputhamearthmovers713@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-3">

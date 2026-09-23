@@ -79,7 +79,7 @@ export function Footer() {
             <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
               <li className="flex gap-3">
                 <MapPin size={16} className="mt-0.5 shrink-0 text-primary" />
-                <span>Kanyakumari, Tamil Nadu, India</span>
+                <span>Kavalkinaru, Tirunelveli District, Tamil Nadu – 627105, India</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-primary" />
@@ -89,8 +89,8 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={16} className="text-primary" />
-                <a href="mailto:arputham.earthmovers@gmail.com" className="hover:text-primary">
-                  arputham.earthmovers@gmail.com
+                <a href="mailto:arputhamearthmovers713@gmail.com" className="hover:text-primary">
+                  arputhamearthmovers713@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
