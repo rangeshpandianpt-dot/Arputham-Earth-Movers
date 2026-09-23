@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "Which areas do you serve?",
-    a: "We primarily serve across Tamil Nadu including Chennai, Madurai, Coimbatore, Theni, Trichy, Salem, and surrounding districts. For large-scale projects, we can extend our service area.",
+    a: "We primarily serve Tirunelveli, Kanyakumari, and surrounding districts across Tamil Nadu. For large-scale projects, we can extend our service area.",
   },
   {
     q: "What equipment do you have?",
