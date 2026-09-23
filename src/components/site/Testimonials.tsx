@@ -10,8 +10,8 @@ import {
 export const testimonials = [
   {
     name: "Murugan K.",
-    project: "Sand/Gravel Supply — 200 Loads",
-    text: "Arputham Earth Movers delivered 200 loads of river sand for our apartment project on time. Best quality sand in the region!",
+    project: "Sand/Gravel Supply — 100 Loads",
+    text: "Arputham Earth Movers delivered 100 loads of gravel for our apartment project on time. Best quality sand in the region!",
   },
   {
     name: "Senthil R.",
@@ -20,8 +20,8 @@ export const testimonials = [
   },
   {
     name: "Karthikeyan P.",
-    project: "Land Leveling — 5 Acres",
-    text: "We needed 5 acres leveled for a commercial project. Arputham's team finished ahead of schedule. Their JCBs and trucks work like a well-oiled machine.",
+    project: "Land Leveling — 2 Acres",
+    text: "We needed 2 acres leveled for a commercial project. Arputham's team finished ahead of schedule. Their JCBs and trucks work like a well-oiled machine.",
   },
 ];
 
