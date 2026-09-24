@@ -39,8 +39,8 @@ function ContactPage() {
               <li className="flex gap-3">
                 <Phone size={18} className="mt-0.5 shrink-0 text-primary" />
                 <div className="flex flex-col gap-1">
-                  <a href="tel:+918870051452" className="text-charcoal/80 hover:text-primary">
-                    +91 88700 51452
+                  <a href="tel:+919443168713" className="text-charcoal/80 hover:text-primary">
+                    +91 94431 68713
                   </a>
                   <a href="tel:+919443163093" className="text-charcoal/80 hover:text-primary">
                     +91 94431 63093
